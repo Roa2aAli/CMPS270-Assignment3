@@ -5,7 +5,10 @@
 
 
 int array[10];
-
+//Specifications:
+//requires: a pointer to a void
+//effects return the number of ones
+//Testing is done better seen in the report 
 void* count1s(void* arr) {
     int index = *(int*)arr;
     int count = 0;
