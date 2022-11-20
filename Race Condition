@@ -9,7 +9,7 @@ int array[10];
 //Specifications:
 //requires: a pointer to a void
 //effects return the number of ones
-//Testing is done better seen in the report 
+//Testing is done better seen in the report //
 void* count1s(void* temp) {
     int index = *(int*)temp;
 
